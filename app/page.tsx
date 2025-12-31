@@ -13,7 +13,21 @@ export default function Home() {
     <div className='min-h-screen flex flex-col bg-gray-100  '>
       <LogoHeader />
       <Navbar />
-      <TopNewsSidebar />
+      <main className='flex-grow'>
+        <div className='container mx-auto px-4 py-6'>
+
+          {/* Top section with 3-column layout */}
+          <div className='grid grid-cols-1 lg:grid-cols-12 gap-6 mb-8'>
+            <div className='lg:col-span-4'>
+              <TopNewsSidebar />
+            </div>
+            ho
+          </div>
+          hom
+        </div>
+        Home
+      </main>
+
       <MainArticle />
       <RecentSidebar />
       <FeaturedSection />
