@@ -21,14 +21,13 @@ export default function Home() {
             <div className='lg:col-span-4'>
               <TopNewsSidebar />
             </div>
-            ho
+            <div className='lg:col-span-4'>
+              <MainArticle />
+            </div>
           </div>
-          hom
         </div>
-        Home
       </main>
 
-      <MainArticle />
       <RecentSidebar />
       <FeaturedSection />
       <NewsGrid />
