@@ -7,7 +7,7 @@ export default function LogoHeader() {
         <div className='justify-center'>
           <div className='text-center'>
             <Image 
-              src="/images/businessday.png"
+              src="/images/logo.jpg"
               alt="BusinessDay Logo"
               className='mx-auto sm:w-20 md:w-26 lg:w-64 transition-all'
               width={50}
