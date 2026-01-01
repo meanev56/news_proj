@@ -24,16 +24,19 @@ export default function Home() {
             <div className='lg:col-span-4'>
               <MainArticle />
             </div>
+            <div className='lg:col-span-4'>
+              <RecentSidebar />
+            </div>
           </div>
+
+          {/* Featuresd section */}
+          <FeaturedSection />
         </div>
       </main>
 
-      <RecentSidebar />
-      <FeaturedSection />
       <NewsGrid />
       <CategorySection />
       <Footer />
-      Hello
     </div>
   )
 }
