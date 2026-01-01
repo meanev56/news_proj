@@ -1,6 +1,6 @@
 
 // API endpoints
-const API_BASE_URL = 'https://businessday.ng/wp-json/wp/v2';
+const API_BASE_URL = 'https://nairametrics.com/wp-json/wp/v2';
 
 export interface Article {
   id: number;
